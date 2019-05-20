@@ -620,9 +620,271 @@ addi $21,$0,256
 addi $4,$0,4
 jal desenhar_retangulo
 #--------------------------------------------------------------------------------------
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x6495ED #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1 #altura
+addi $18,$0, 7 #largura
+addi $19,$0, 11948 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 3#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11184 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 3#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11200 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 2 #altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11448 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11180 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11204 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xEE82EE #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11192 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
 
 
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 10936 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
 
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 10928 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 10944 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 11432 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 12204 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 2 #altura
+addi $18,$0, 1 #largura
+addi $19,$0, 12216 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 12228 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 2#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 12208 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xFFFACD #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 2#altura
+addi $18,$0, 1 #largura
+addi $19,$0, 12224 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+#Arma canto direito
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x228B22 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1 #altura
+addi $18,$0, 1 #largura
+addi $19,$0, 8160 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x228B22 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1 #altura
+addi $18,$0, 1 #largura
+addi $19,$0, 8168 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x20B2AA #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1 #altura
+addi $18,$0, 2 #largura
+addi $19,$0, 7900 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x20B2AA #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0, 1 #altura
+addi $18,$0, 2 #largura
+addi $19,$0, 7912 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xBA55D3 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0,  1 #altura
+addi $18,$0, 3#largura
+addi $19,$0, 7648 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0x90EE90 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0,  1 #altura
+addi $18,$0, 1 #largura
+addi $19,$0, 7396 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xF4A460 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0,  1 #altura
+addi $18,$0, 2 #largura
+addi $19,$0, 7132 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
+
+lui $8,0x1001 #endereço inicial de posicao
+addi $10,$0,0xF4A460 #verde normal : cor dos pixels do poligono
+addi $15,$0,0 #i
+addi $16,$0,0 #j
+addi $17,$0,  1 #altura
+addi $18,$0, 2 #largura
+addi $19,$0, 6872 # posiçao do pixel em que começa a ser desenhado(a partir da extremidade esquerda)
+addi $21,$0,256
+addi $4,$0,4
+jal desenhar_retangulo
  	#----------------------------------------------------
  	addi $17,$0,5 #altura
 	addi $18,$0,216 #largura
